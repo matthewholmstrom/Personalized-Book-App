@@ -1,0 +1,152 @@
+/* Global styles for Converted component only */
+.converted-body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #cadcd5 0%, #f4f9f7 100%);
+  color: #333;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Header */
+.converted-header {
+  width: 100%;
+  background: white;
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.converted-logo img {
+  height: 55px;
+  width: auto;
+}
+
+.converted-links {
+  display: flex;
+  gap: 20px;
+}
+
+.converted-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.converted-links a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+.converted-main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Main Card / Hero */
+.main-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.main-card h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  color: #1e2d39;
+}
+
+.main-card h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #3a566e;
+}
+
+.main-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.main-button {
+  background-color: #d6d69c;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.main-button:hover {
+  background-color: #c1c187;
+}
+
+/* Hero layout */
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.main-image-wrapper {
+  max-width: 450px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 5px solid rgba(255,255,255,0.7);
+}
+
+.main-image-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+/* Secondary cards */
+.card-row {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-row .main-card {
+  flex: 1 1 45%;
+  max-width: 500px;
+}
+
+.single-card-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Footer */
+.converted-footer {
+  padding: 25px 0;
+  background-color: #2a6ebb;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 40px;
+}
